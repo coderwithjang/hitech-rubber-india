@@ -4,7 +4,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import { 
-  Wrench, 
   FlaskConical, 
   Ruler, 
   ShieldCheck, 

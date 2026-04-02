@@ -93,7 +93,7 @@ export default function ProductsPage() {
               </div>
               <h2 className="font-display text-4xl font-bold mb-6">Custom Engineering & Development</h2>
               <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-10">
-                Can't find the exact standard component like our <strong>silicone rubber wristbands</strong> or <strong>manhole rubber washers</strong>? Our in-house tool room and lab allow us to manufacture completely bespoke rubber products directly from your CAD drawings or physical samples.
+                Can&apos;t find the exact standard component like our <strong>silicone rubber wristbands</strong> or <strong>manhole rubber washers</strong>? Our in-house tool room and lab allow us to manufacture completely bespoke rubber products directly from your CAD drawings or physical samples.
               </p>
               <Link href="/contact" className="bg-primary hover:bg-primary-dark text-white px-10 py-5 text-sm font-bold tracking-widest uppercase transition-all shadow-premium inline-block">
                 Submit Your Drawing

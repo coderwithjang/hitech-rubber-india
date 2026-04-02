@@ -3,7 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
-import { Building2, Globe2, FlaskConical, Award, Settings, ShieldCheck, CheckCircle2, Factory } from "lucide-react";
+import { Building2, Globe2, FlaskConical, Settings, ShieldCheck, CheckCircle2, Factory } from "lucide-react";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

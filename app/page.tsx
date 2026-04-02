@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import HeroSliderBackground from "@/components/ui/HeroSliderBackground";
-import { CheckCircle2, Factory, Globe2, PenTool, Clock, FlaskConical, Rocket, ShieldCheck, ArrowRight, Target, PackageCheck, Briefcase, PlayCircle } from "lucide-react";
+import { CheckCircle2, Factory, Globe2, PenTool, Clock, FlaskConical, ArrowRight, Target, Briefcase, PlayCircle } from "lucide-react";
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
