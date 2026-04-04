@@ -10,27 +10,27 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#01696f",
-          light: "#0b8b91",
-          dark: "#0a565c",
+          DEFAULT: "#5C8D19",
+          light: "#78b821",
+          dark: "#456a12",
         },
         background: {
           DEFAULT: "#FAF9F6",
           surface: "#F4F1EA",
         },
         charcoal: {
-          DEFAULT: "#1f2937",
-          dark: "#111827",
-          light: "#374151"
+          DEFAULT: "#231F20",
+          dark: "#111111",
+          light: "#333333"
         },
         text: {
-          DEFAULT: "#1f2937",
-          muted: "#6B7280",
+          DEFAULT: "#231F20",
+          muted: "#666666",
         }
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "sans-serif"],
-        display: ["var(--font-playfair)", "serif"],
+        sans: ["Calibri", "Candara", "Segoe UI", "Optima", "Arial", "sans-serif"],
+        display: ["Calibri", "Candara", "Segoe UI", "serif"],
       },
       boxShadow: {
         'premium': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',

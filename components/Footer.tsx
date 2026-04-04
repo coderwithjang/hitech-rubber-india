@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, MapPin, Mail, Navigation } from "lucide-react";
 
 export default function Footer() {
@@ -9,8 +10,9 @@ export default function Footer() {
           
           <div className="lg:col-span-4 space-y-6">
             <Link href="/" className="inline-block">
-              <h3 className="font-display font-bold text-3xl tracking-wide mb-1 text-white hover:text-primary-light transition-colors">HI-TECH RUBBER</h3>
-              <p className="text-xs text-primary-light font-bold tracking-[0.2em] uppercase">Industries India</p>
+              <div className="bg-white p-2 rounded-md inline-block">
+                <Image src="/logo.gif" alt="Hi-Tech Rubber Logo" width={200} height={60} className="object-contain" />
+              </div>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
               Premium custom rubber moulding factory based in India, delivering engineering excellence since 1990. ISO compliant manufacturing mapped to global standards.

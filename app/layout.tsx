@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   title: "Rubber Moulded Parts Manufacturer India | Hi-Tech Rubber Export",
   description: "Expert manufacturer of custom silicone rubber moulded parts, lathe cut rubber washers, manhole rubber washers, and EPDM O-rings in India exporting to USA, Canada, Gulf, and Europe.",
   keywords: "Lathe cut rubber washers, rubber washers, custom silicone rubber moulded parts, Rubber wristbands, silicone rubber wristbands, rubber grommets, rubber gaskets, Manhole rubber washers, rubber moulded parts, rubber moulded factory in India, Compression rubber moulded parts, custom silicone washers, rubber orings, rubber spacers, rubber flat washers",
+  icons: {
+    icon: "/logo.gif",
+    apple: "/logo.gif",
+  },
   alternates: {
     canonical: 'https://hitechrubberindia.com',
   }

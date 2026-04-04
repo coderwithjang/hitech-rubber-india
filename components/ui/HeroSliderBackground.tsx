@@ -19,8 +19,8 @@ export default function HeroSliderBackground({ images }: { images: string[] }) {
       <AnimatePresence>
         <motion.div
           key={currentIndex}
-          initial={{ opacity: 0, scale: 1.1 }}
-          animate={{ opacity: 0.4, scale: 1 }}
+          initial={{ opacity: 0, scale: 1.05 }}
+          animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
           transition={{ opacity: { duration: 1.5 }, scale: { duration: 5 } }}
           className="absolute inset-0 w-full h-full"
